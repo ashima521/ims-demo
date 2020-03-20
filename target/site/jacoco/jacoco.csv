@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+chris-ims,com.qa.ims.controller,Action,116,0,2,0,18,0,6,0,5,0
+chris-ims,com.qa.ims.controller,CustomerController,2,105,0,2,1,29,1,7,1,6
+chris-ims,com.qa.ims,Ims,207,0,19,0,56,0,20,0,7,0
+chris-ims,com.qa.ims,Runner,14,0,0,0,5,0,3,0,3,0
+chris-ims,com.qa.ims.persistence.dao,CustomerDaoMysql,301,0,2,0,70,0,11,0,10,0
+chris-ims,com.qa.ims.services,CustomerServices,0,28,0,0,0,8,0,5,0,5
+chris-ims,com.qa.ims.persistence.domain,Domain,33,72,2,0,9,10,3,3,2,3
+chris-ims,com.qa.ims.persistence.domain,Customer,0,176,0,30,0,48,0,26,0,11
+chris-ims,com.qa.ims.utils,Utils,8,0,0,0,2,0,1,0,1,0
