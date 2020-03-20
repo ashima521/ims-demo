@@ -14,16 +14,16 @@ def calculated_test_coverage():
 # print(calculated_test_coverage())
 
 def add_test_coverage_to_readme():
-    file_input = open(file="../README.md", mode="r")
+    file_input = open(file="./README.md", mode="r")
     readme_text = file_input.read()
     file_input.close()
 
-    file_output = open(file="../README.md", mode="w")
+    file_output = open(file="./README.md", mode="w")
     file_output.write("Coverage: " + calculated_test_coverage() +"\n")
     file_output.close()
     
 def update_test_coverage_in_readme():
-    file_input = open(file="../README.md", mode="r")
+    file_input = open(file="./README.md", mode="r")
     text = ""
     while True:
         line = file_input.readline()
@@ -36,12 +36,12 @@ def update_test_coverage_in_readme():
         else:
             text += line
     file_input.close()
-    file_output = open(file="../README.md", mode="w")
+    file_output = open(file="./README.md", mode="w")
     file_output.write(text)
     file_output.close
 
 def add_or_update():
-    file_input = open(file="../README.md", mode="r")
+    file_input = open(file="./README.md", mode="r")
     while True:
         line = file_input.readline()
         start_line = line.split(":")
