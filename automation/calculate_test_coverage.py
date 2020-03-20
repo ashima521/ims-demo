@@ -1,7 +1,7 @@
 import csv
 
 def calculated_test_coverage():
-    with open(file="../target/site/jacoco/jacoco.csv", mode="r") as file:
+    with open(file="./target/site/jacoco/jacoco.csv", mode="r") as file:
         csv_reader = csv.reader(file, delimiter=',') # makes csv easier to handle
         next(csv_reader) # skip titles on first line
         covered = 0
